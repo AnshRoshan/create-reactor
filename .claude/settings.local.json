@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(bun *)",
+      "PowerShell(Remove-Item *)",
+      "PowerShell(node create-app.mjs --help)",
+      "PowerShell(node create-app.mjs test-full --pm bun --backend convex --auth clerk --router tanstack --ai anthropic --extras query,zustand,forms,prettier --yes)",
+      "PowerShell(Get-Content \"C:\\\\Users\\\\Ansh\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-Ansh-Desktop-Archive-PROJ-react-stater\\\\1090284d-b595-4582-8a65-f2f1037365a3\\\\tasks\\\\ben9eo847.output\" -Tail 8; \"==== test-supa ====\"; Get-Content \"C:\\\\Users\\\\Ansh\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-Ansh-Desktop-Archive-PROJ-react-stater\\\\1090284d-b595-4582-8a65-f2f1037365a3\\\\tasks\\\\b3khiq6tn.output\" -Tail 8)",
+      "PowerShell(Test-Path *)",
+      "PowerShell(git config *)",
+      "PowerShell(cd C:\\\\Users\\\\Ansh\\\\Desktop\\\\Archive\\\\PROJ\\\\react-stater\\\\test-full; $env:CI=\"true\"; cmd /c \"bun x --bun shadcn@latest add button card input badge label dialog sonner --yes --overwrite\" 2>&1 | Select-Object -Last 25)",
+      "PowerShell(Set-Content *)"
+    ]
+  }
+}

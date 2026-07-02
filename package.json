@@ -1,0 +1,52 @@
+{
+  "name": "create-reactor",
+  "version": "0.1.0",
+  "description": "Interactive generator for modern React starters: Vite + TypeScript + Tailwind v4 + shadcn/ui + TanStack Router + Convex/Supabase + Clerk/Convex Auth + AI SDK",
+  "type": "module",
+  "bin": {
+    "create-reactor": "./create-app.mjs"
+  },
+  "files": [
+    "create-app.mjs",
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "create": "node create-app.mjs"
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "typescript",
+    "tailwind",
+    "shadcn",
+    "tanstack",
+    "convex",
+    "supabase",
+    "clerk",
+    "scaffold",
+    "generator",
+    "starter",
+    "boilerplate",
+    "create-react-app",
+    "ai-sdk"
+  ],
+  "author": "Ansh Roshan <ianshroshan@gmail.com> (https://github.com/AnshRoshan)",
+  "license": "MIT",
+  "homepage": "https://github.com/AnshRoshan/create-reactor#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnshRoshan/create-reactor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AnshRoshan/create-reactor/issues"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.11.0",
+    "picocolors": "^1.1.1"
+  },
+  "engines": {
+    "node": ">=20.19"
+  }
+}
