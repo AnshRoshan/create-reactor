@@ -1,5 +1,10 @@
 # create-reactor
 
+[![npm version](https://img.shields.io/npm/v/create-reactor.svg)](https://www.npmjs.com/package/create-reactor)
+[![npm downloads](https://img.shields.io/npm/dm/create-reactor.svg)](https://www.npmjs.com/package/create-reactor)
+[![license](https://img.shields.io/npm/l/create-reactor.svg)](./LICENSE)
+[![node](https://img.shields.io/node/v/create-reactor.svg)](https://nodejs.org)
+
 Your personal React project generator. Answer a few questions — or pick a preset — and get a fully wired-up modern stack. No more repeating boilerplate.
 
 ```sh
